@@ -1,11 +1,45 @@
-.companyLogo{
-    height: 26px;
-    width: 26px;
-    border-radius: 50%;
-    object-fit: contain;
+.AllJobContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.jobResultContainer{
+    background-color: white;
+    padding: 30px;
+    border: 1px solid black;
+    display: flex;
+    font-size: 0.8rem;
+    margin: 20px;
 }
 
-.Top{
+.companyLogo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.companyName{
+    color: #FF3659;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Montserrat Bold',Arial;
+}
+
+.ContainerLeft{
     display: flex;
     align-items: center;
+}
+
+.JobTitle{
+    font-size: 1rem;
+    font-family: 'Montserrat Bold',Arial;
+}
+
+.applyLink{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: "bold";
 }

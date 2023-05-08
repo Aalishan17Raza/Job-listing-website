@@ -1,0 +1,274 @@
+/*ELEMENT-SELECTION*/
+body{
+    font-family: "Montserrat";
+    color: #8f8f8f;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat Bold',Arial;
+}
+/*HEADING-SECTION*/
+.big-heading{
+    font-family: 'Montserrat Black', Arial;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+#title{
+    background-color:#ECF2FF;
+    color:#00008b;
+}
+/*CONTAINER SECTION*/
+
+.container-fluid{
+    padding: 3% 15% 15%;
+}
+/*FEATURE-SECTION*/
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.feature-text{
+    font-size: 1.5rem;
+    color:#FF3659;
+
+}
+.icon{
+    color: #00008b;
+    margin-bottom: 3rem;
+}
+
+
+.icon:hover{
+    color:#FF3659;
+}
+
+/*NAVIGATION-BAR*/
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 5px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat Light', arial;
+}
+
+.navbar-brand{
+    color: #00008b;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.btn-second{
+    margin-left: 10px;
+}
+.icon{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top:10px;
+}
+/*DOWNLOAD-BUTTON*/
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+/*TITLE- SECTION*/
+.tagline{
+    width:80%;
+}
+.title-image{
+    width: 48%;
+    position: absolute;
+    right:2%;
+    
+}
+.input-group{
+    margin: 60px auto 0px;
+}
+/*ABOUT*/
+#About{
+    background-color: #ECF2FF;
+    text-align: center;
+    height: 570px; 
+}
+.About-item{
+    border: 1px solid rgb(227, 229, 240);
+   
+    padding-top: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+
+}
+.About-text{
+    
+    
+    color:#8f8f8f;
+    font-size: 1.5rem;
+    line-height:2;
+    text-align: center;
+
+}
+.name{
+    color: #FF3659;
+}
+
+/*Find Job section*/
+#findJob{
+    padding: 50px;
+    text-align: center;
+    border: none;
+}
+.job {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.job-logo {
+    width: 100px;
+    margin-right: 1rem;
+}
+
+.job-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-company {
+    color:#FF3659;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.job-designation {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.job-salary {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+/*testimonial-section*/
+#testimonials{
+    background-color: #ECF2FF;
+    text-align: center;
+    
+}
+.testimonial-image{
+    width:30%;
+    margin: 20px;
+    border-radius: 100%;
+}
+.testimonial-text{
+    color:#00008b;
+    font-size: 2rem;
+    line-height: 1.5;
+
+}
+.carousel-item{
+    padding: 8% 20%;
+}
+.name{
+    font-family: 'Montserrat Bold',Arial;
+    font-size: 1.4rem;
+}
+.work{
+    font-family: "Montserrat";
+    font-size: 1.1rem;
+}
+.button{
+    color: #8f8f8f;
+
+}
+
+/*PRESS-SECTION*/
+#press{
+    background-color: #ECF2FF;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width:10%;
+    margin: 20px 20px 50px;
+}
+
+/*PRICING*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+.pricing-text{
+    color:#00008b;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.pricing-title{
+    font-size: 1.5rem;
+    color:#FF3659;
+
+}
+/*CTA*/
+#cta{
+    background-color: #ECF2FF;
+    padding:7% 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-family: 'Montserrat Black';
+    font-size: 3rem;
+    line-height: 1.5;
+    color:#FF3659;
+}
+
+/*footer*/
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.social-icon{
+    margin: 20px 10px;
+
+}
+
+.input-group {
+    margin: 20px auto 0px;
+}
+
+.container-fluid {
+    padding: 3% 15% 15%;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+/*MEDIA QUERY*/
+@media (max-width:994px){
+    .title-image{
+        position: static;
+        width: 90%;
+        right:20%
+    }
+    #title{
+        text-align: center;
+    }
+
+}
+
